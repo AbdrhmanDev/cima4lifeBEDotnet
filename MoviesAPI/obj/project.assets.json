@@ -9566,11 +9566,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Movie-Center-main\\Deployments Module 8 -\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj",
+      "projectUniqueName": "H:\\Movie-Center-main\\Cima4LifeBE\\MoviesAPI\\MoviesAPI.csproj",
       "projectName": "MoviesAPI",
-      "projectPath": "H:\\Movie-Center-main\\Deployments Module 8 -\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj",
+      "projectPath": "H:\\Movie-Center-main\\Cima4LifeBE\\MoviesAPI\\MoviesAPI.csproj",
       "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-      "outputPath": "H:\\Movie-Center-main\\Deployments Module 8 -\\MoviesAPI\\MoviesAPI\\obj\\",
+      "outputPath": "H:\\Movie-Center-main\\Cima4LifeBE\\MoviesAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -20,7 +20,7 @@ namespace MoviesAPI.Controllers
 {
     [ApiController]
     [Route("api/accounts")]
-    public class AccountsController: ControllerBase
+    public class AccountsController : ControllerBase
     {
         private readonly UserManager<IdentityUser> userManager;
         private readonly SignInManager<IdentityUser> signInManager;
@@ -31,7 +31,7 @@ namespace MoviesAPI.Controllers
         public AccountsController(UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
             IConfiguration configuration,
-            ApplicationDbContext context, 
+            ApplicationDbContext context,
             IMapper mapper)
         {
             this.userManager = userManager;
@@ -48,7 +48,10 @@ namespace MoviesAPI.Controllers
             var queryable = context.Users.AsQueryable();
             await HttpContext.InsertParametersPaginationInHeader(queryable);
             var users = await queryable.OrderBy(x => x.Email).Paginate(paginationDTO).ToListAsync();
+            Console.WriteLine("List Users Endpoint Hit");
             return mapper.Map<List<UserDTO>>(users);
+
+
         }
 
         [HttpPost("makeAdmin")]

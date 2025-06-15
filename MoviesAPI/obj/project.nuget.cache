@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GJpyQ3ZTMXw=",
+  "dgSpecHash": "fxxcdpBjZ+U=",
   "success": true,
-  "projectFilePath": "H:\\Movie-Center-main\\Deployments Module 8 -\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj",
+  "projectFilePath": "H:\\Movie-Center-main\\Cima4LifeBE\\MoviesAPI\\MoviesAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows 10\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\Windows 10\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
